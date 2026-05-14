@@ -5,7 +5,7 @@ import com.intuit.karate.junit5.Karate;
 class TestRunner {
 
     @Karate.Test
-    Karate testUsers() {
-        return Karate.run("users").relativeTo(getClass());
+    Karate runAllTests() {
+        return Karate.run("users", "posts", "create-user").relativeTo(getClass());
     }
 }
