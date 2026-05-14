@@ -8,7 +8,7 @@ And request
 {
   "name": "Romina",
   "username": "rominaqa",
-  "email": "romina@test.com"
+  "email": "romina.diaz.2809@gmail.com"
 }
 """
 When method POST
